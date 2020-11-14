@@ -1,0 +1,61 @@
+body {
+  background-color: blueviolet;
+  
+  height: 100%;
+
+}
+
+.contenedor {
+
+  display: flex;
+ 
+  flex-direction: column;
+  width: 20%;
+  height: 110%;
+
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 12%;
+  margin-left: 40%;
+  
+
+}
+
+.flex-head {
+ 
+  display: flex;
+  text-align: center;
+  height: 100px;
+  width: 220px;
+  align-items: center;
+  gap: 50px;
+}
+.item {
+
+  transition-duration: 0.5s;
+  height: 40px;
+  width: 100%;
+  text-align: initial;
+  
+}
+.item:hover {
+  background-color: #8b4caf;
+  color: white;
+  width: 100%;
+}
+
+
+
+.flex-item-footer {
+  height: 25px;
+  width: 220px;
+  background-color: white;
+  text-align: start;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.foto {
+  widows: 60px;
+  height: 60px;
+  border-radius: 60px;
+}
